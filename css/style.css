@@ -88,7 +88,7 @@ input,
 button,
 textarea,
 select {
-  font: inherit;
+  font-family: Mplus 1p;
 }
 html {
     overflow-x: hidden;
@@ -120,4 +120,28 @@ a:hover{
 a {
   text-decoration: none;
   color: rgb(255, 255, 255);
+}
+.container {
+  max-width: 1163px;
+  width: 100%;
+  margin: 0 auto;
+}
+.container__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.container__header__Hed {
+  display: flex;
+  width: 20%;
+  font-family: "Mplus 1p";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 250%;
+  line-height: 43px;
+  letter-spacing: 2px;
+  color: #fcfcfc;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
 }
