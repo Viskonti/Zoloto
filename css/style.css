@@ -159,8 +159,8 @@ a {
 }
 .container__header__lis ul {
   display: flex;
-  width: 90%;
-  justify-content: space-around;
+  width: 100%;
+  justify-content: space-between;
   color: white;
   padding: 0px;
   margin: 0px;
@@ -230,29 +230,8 @@ a {
   -moz-transition: stroke-dashoffset 650ms cubic-bezier(0.755, 0.150, 0.205, 1.000);
   -o-transition: stroke-dashoffset 650ms cubic-bezier(0.755, 0.150, 0.205, 1.000);
 }
-#search {
-  font-family: 'Montserrat Alternates', sans-serif;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border-radius: 120px;
-  border: none;
-  background: rgba(255,255,255,0);
-  padding: 0 68px 0 68px;
-  color: #FFFFFF;
-  font-size: 1.32em;
-  font-weight: 400;
-  letter-spacing: -0.015em;
-  outline: none;
-}
-#search::-webkit-input-placeholder {color: #FFFFFF;}
-#search::-moz-placeholder {color: #FFFFFF;}
-#search:-ms-input-placeholder {color: #FFFFFF;}
-#search:-moz-placeholder {color: #FFFFFF;}
-#search::-moz-selection {color: #FFFFFF; background: rgba(0,0,0,0.25);}
-#search::selection {color: #FFFFFF; background: rgba(0,0,0,0.25);}
+
+
 /*ПОПУЛЯРНЫЕ ТОВАРЫ*/
 
 .pop {
@@ -474,7 +453,7 @@ color: #FFD700;
 }
 
 .products-section {
-  margin-top: 50px;
+
   padding: 1px;
   background-color: rgb(81, 81, 81, 1);
   background-size: cover;
@@ -707,7 +686,7 @@ color: #FFD700;
   border-radius: 5px 0 0 5px;
   outline: none;
   color: #ffffff;
-  background: black;
+  background: rgba(37, 33, 30, 1);
 }
 
 .searchTerm:focus{
@@ -718,7 +697,7 @@ color: #FFD700;
   width: 40px;
   height: 36px;
   border: 1px solid #ffffff;
-  background: black;
+  background: rgba(37, 33, 30, 1);
   text-align: center;
   color: #fff;
   border-radius: 0 5px 5px 0;
@@ -735,7 +714,7 @@ color: #FFD700;
   display:flex;
 }
 .pointin{
- 
+  padding-left: 2%;
 }
 .pointout{
   padding-left:3%
@@ -747,5 +726,18 @@ color: #FFD700;
   padding-left: 3%;
 }
 .container__header__Hed img {
-  width:60%;
+  width:100%;
+}
+.Tagsins ul {
+  padding-left:2%;
+  padding-right:2%;
+  display: flex;
+  border: #e6e8ea;
+  justify-content: space-between;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  padding-bottom:2%;
+  margin:0 auto;
+  padding-top:2%;
+  margin-top: 4%;
 }
