@@ -732,7 +732,7 @@ color: #FFD700;
   padding-left:2%;
   padding-right:2%;
   display: flex;
-  border: #e6e8ea;
+ 
   justify-content: space-between;
   border-top: 1px solid white;
   border-bottom: 1px solid white;
@@ -740,4 +740,8 @@ color: #FFD700;
   margin:0 auto;
   padding-top:2%;
   margin-top: 4%;
+}
+
+.Tagsins img{
+  margin: 0 auto;
 }
