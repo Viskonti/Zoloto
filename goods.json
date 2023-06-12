@@ -1,0 +1,30 @@
+{
+    "1234": {
+"name": "Цимбуш",
+"cost": 44.2,
+"description":"Цветной цимбуш",
+"order":1,
+"img": "images/белт.png"
+    },
+    "1235": {
+        "name": "Цимбуш",
+        "cost": 44.2,
+        "description":"Цветной цимбуш",
+        "order":2,
+        "img": "images/белт.png"
+            },
+            "1236": {
+                "name": "Цимбуш",
+                "cost": 44.2,
+                "description":"Цветной цимбуш",
+                "order":3,
+                "img": "images/белт.png"
+                    },
+                    "1237": {
+                        "name": "Цимбуш",
+                        "cost": 44.2,
+                        "description":"Цветной цимбуш",
+                        "order":4,
+                        "img": "images/белт.png"
+                            }
+}
