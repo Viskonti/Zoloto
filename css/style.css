@@ -102,29 +102,7 @@ ol[class] {
   display: block;
   clear: both;
 }
-.cart .add-to-cart {
-  font-size: 1.1rem;
-  background: black;
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  cursor: pointer;
-}
-.cart .add-to-cart:hover {
-  background: cadetblue;
-}
-.cart .add-to-cart:active {
-  background: red;
-}
-.goods-out {
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
-}
-.goods-out::after {
-  content: "";
-  display: block;
-  clear: both;
-}
+
 /* Элементы a, у которых нет класса, сбрасываем до дефолтных стилей */
 a:not([class]) {
   text-decoration-skip-ink: auto;
@@ -221,6 +199,7 @@ a {
   color: white;
   padding: 0px;
   margin: 0px;
+  width:70%;
 }
 .search-box {
   position: relative;
@@ -732,6 +711,7 @@ color: #FFD700;
   position: relative;
   display: flex;
   background-color: rgba(37, 33, 30, 1);
+  width:70%;
 }
 
 .searchTerm {
